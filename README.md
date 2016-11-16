@@ -15,9 +15,9 @@
     - #import "UIView+RedPoint.h"
 - 3、在需要天机小红点的UIView的子类中调用下面方法即可
 
-```
-//Num为需要显示的条数，frame为小红点显示在视图的位置
-[self.view addRedPointWithNum:12 frame:CGRectMake(100, 100, 20, 20)];
-```
+    ```
+    //Num为需要显示的条数，frame为小红点显示在视图的位置
+    [self.view addRedPointWithNum:12 frame:CGRectMake(100, 100, 20, 20)];
+    ```
 
 
