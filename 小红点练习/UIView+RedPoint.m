@@ -73,7 +73,6 @@ static UIView *red;
 {
     return objc_getAssociatedObject(self, &red);
 }
-
 -(void)setRedView:(UIView *)redView
 {
     objc_setAssociatedObject(self, &red, redView, OBJC_ASSOCIATION_ASSIGN);
